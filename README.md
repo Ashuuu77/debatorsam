@@ -4,29 +4,31 @@
 
 Clone the repository:
 
-git clone https://github.com/ashuuu77/debatorsam.git
+
+    git clone https://github.com/ashuuu77/debatorsam.git
 
 Navigate to the project directory:
 
-cd Debator Sam
+
+    cd Debator Sam
 
 Install dependencies:
 
-    Frontend
+Frobtend
 
-cd Frontend
-npm install
-npm i framer-motion lucide-react react react-dom react-icons react-redux react-router-dom react-speech-recognition react-toastify wav-encoder
+    cd Frontend
+    npm install
+    npm i framer-motion lucide-react react react-dom react-icons react-redux react-router-dom react-speech-recognition react-toastify wav-encoder
 
-    Backend
 
-cd Backend
-npm install
-npm i @google/generative-ai axios bcrypt concurrently cookie-parser cors dotenv express jsonwebtoken mongodb mongoose multer nodemon prettier
+    cd Backend
+    npm install
+
+    npm i @google/generative-ai axios bcrypt concurrently cookie-parser cors dotenv express jsonwebtoken mongodb mongoose multer nodemon prettier
 
 Set up environment variables:
 
-    Create a .env file in the backend directory and replace with actual values
+Create a .env file in the backend directory and replace with actual values
 
 PORT=8000
 MONGODB_URI=
@@ -46,16 +48,19 @@ HUGGINGFACE_API_KEY=
 
 Run the application:
 
-    Frontend
+Frontend
 
-npm run dev
 
-    Backend
+    npm run dev
 
-npm run server
+Backend
 
-    Use concurrently - for both Backend and Frontend
 
-cd Backend
-npm run dev
+    npm run server
+
+Use concurrently - for both Backend and Frontend
+
+
+    cd Backend
+    npm run dev
 
